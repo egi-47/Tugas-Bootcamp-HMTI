@@ -59,12 +59,24 @@ if (angka==2){
 }
 
 //if else if else
+//contoh 1 :
 if (1 != 1){
 	console.log("1 tidak sama dengan 1")
 } else if(1 > 1) {
 	console.log("tapi 1 lebih dari 0")
 } else {
 	console.log("gaskeun kabeh Gan!")
+}
+
+//contoh 2 :
+var gaji = 4500000;
+        
+if (gaji == 1000000) {
+  console.log("Sedikit banget");
+} else if (gaji >= 5000000) {
+  console.log("Gede banget");
+} else {
+  console.log("Lumayan lah");
 }
 
 //if bersarang
@@ -96,7 +108,7 @@ if (angka%2==0) {
 }           
 
 //Jawaban No.2
-//contoh : 1
+//contoh 1 :
 var mobil = "Fortuner";
 
     if (mobil == "Vario"){
@@ -109,7 +121,7 @@ var mobil = "Fortuner";
         console.log("Ini mobil Fortuner");
     }
 
-//contoh : 2
+//contoh 2 :
     var mantan = "Balikan yu"; 
 
     if (mantan == "Balikan yu"){
